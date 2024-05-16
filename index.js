@@ -6,7 +6,7 @@ var Bruna = window.document.getElementById("Bruna")
 
 function RolarParaDireita() {
     Leonardo.style = "display:none"
-    Bruna.style = "display:flex; width:"
+    Bruna.style = "display:flex"
     setaEsquerda.style = "display:flex; margin-top: 120px;"
     setaDireita.style = "display:none"
 }

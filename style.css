@@ -93,10 +93,16 @@
     cursor: pointer;
 }
 
-.seta:hover{
-    transform:translateY(-5px);
+#seta-direita:hover{
+    transform:translateX(5px);
     transition-duration: 0.5s;
 }
+
+#seta-esquerda:hover{
+    transform:translateX(-5px);
+    transition-duration: 0.5s;
+}
+
 
 #formulario{
     text-align: center;
